@@ -32,3 +32,16 @@ int main(){
     cout << "This is fib number :" << optimized_nth_fibb(fib_series, number , &optimize) << "   steps :" << optimize << endl;
     return 0;
 }
+
+
+/*
+    fibbnacii Time complexity (TC) :--
+        2^n for reaching base condtion 
+        and takes 2^n axiulary space for recurrsion call stack
+    
+    optimized fibb Time Complexity (TC):---
+        I will reach with o(N) as we are maintaining array for storing fibb values
+        I will Take o(N) for storing Array and O(N) axiluary space for recurrsion call stack.   
+
+
+*/
